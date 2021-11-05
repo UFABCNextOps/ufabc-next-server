@@ -2,7 +2,7 @@ const assert = require('assert')
 
 const toNumber = require('./toNumber')
 
-describe.only('toNumber', function () {
+describe('toNumber', function () {
     describe('when value already is number', function () {
         it('should return miliseconds duration', function () {
             const number = 3
